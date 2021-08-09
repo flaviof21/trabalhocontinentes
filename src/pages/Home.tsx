@@ -5,7 +5,6 @@ import { Link }  from 'react-router-dom'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import styles from '../styles/Cursor.scss'
 import '../styles/Home.scss'
 import { Header } from '../components/Header'
 import imgAsia2 from '../assets/Asia2.jpg'
