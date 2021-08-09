@@ -31,7 +31,7 @@ export function Home() {
           <div className="descriptions">
             <Box display="flex" flexDirection="row-reverse" >
               <Box className="content" data-aos="fade-right" data-anime="right">
-                <span className="text-content"> loren asd d asd asd as d asd s das das dad sad ds asd... <Link to="/asia/#Asia">Read More</Link> <p>Text author: Flávio Farias</p></span>
+                <span className="text-content"> <h3>loren asd d asd asd as d asd s das das dad sad ds asd...</h3> <Link to="/asia/#Asia">Leia aqui</Link> <p>Text author: Flávio Farias</p></span>
                 <Box className="img-content"><img src={imgAsia2} alt="Imagem da asia" /></Box>
               </Box>
             </Box>
@@ -41,9 +41,6 @@ export function Home() {
       <footer>
 
       </footer>
-      <script type="text/javascript">
-        const target = document.querySelectorAll('[data-anime]')
-      </script>
     </>
   );
 }
