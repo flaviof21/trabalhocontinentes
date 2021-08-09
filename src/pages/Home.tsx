@@ -19,13 +19,13 @@ export function Home() {
       <Header />
       <main>
         <section id="home">
-          <div className="firstPage">
-            <Typing hideCursor={false} className={styles.cursor} >
-              <h2 id="title">Continente Asiático</h2>
+          <Box display="inline-block" justifyContent="center" className="firstPage">
+            <Typing hideCursor={false} className="title">
+              <h2>Continente Asiático</h2>
             </Typing>
             <hr />
-            <p>Paragraph</p>
-          </div>
+            <p>Bla bla bla bla bla com mais bla e com acréscimo de blas ou sejá bla bla bla bla bla bla bla</p>
+          </Box>
         </section>
         <section>
           <div className="descriptions">
@@ -42,7 +42,7 @@ export function Home() {
               </Box>
             </Box>
             <Box display="flex" flexDirection="row-reverse" >
-              <Box className="content" data-aos="fade-right" data-anime="right">
+              <Box display="flex" flexDirection="row" className="content" data-aos="fade-right" data-anime="right">
                 <span className="text-content"> <h3>loren asd d asd asd as d asd s das das dad sad ds asd...</h3> <Link to="/asia/#Asia">Leia aqui</Link> <p>Text author: Flávio Farias</p></span>
                 <Box className="img-content"><img src={imgAsia2} alt="Imagem da asia" /></Box>
               </Box>

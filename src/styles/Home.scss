@@ -1,15 +1,14 @@
 #home {
   padding: 150px;
-  background-position: auto;
   background-color: #1a0836;
 
   .firstPage {
     h2 {
-    color: #ffffff;
-    font-size: 35px;
-    padding-top: 50px;
-    text-align: center;
-    text-transform: uppercase;
+      color: #ffffff;
+      font-size: 35px;
+      padding-top: 50px;
+      text-align: center;
+      text-transform: uppercase;
     } 
 
     hr {
@@ -103,14 +102,31 @@
     }
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 705px) {
+  .title h2 {
+    font-size: 25px !important;
+  }
+}
+@media (max-width: 590px) {
   .text-content {
-    h3 {
-      display: none;
-    }
-    
     Link {
       text-align: right;
+    }
+  }
+  .img-content {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  #home {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .firstPage {
+    display: grid;
+    
+    h2 {
+      text-align: center;
     }
   }
 }
