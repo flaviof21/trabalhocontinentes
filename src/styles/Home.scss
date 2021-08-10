@@ -45,8 +45,10 @@
   margin: 15px;
   background: #343434;
   border-radius: 20px;
+
   .text-content {
     padding-left: 15px;
+
     p {
       align-items: stretch;
       text-align: end;
@@ -54,10 +56,11 @@
       font-size: 14px;
       color: #737380;
       margin-top: 16px;
+      padding-right: 15px;
     }
   }
   .img-content {
-    padding: 5px;
+    padding: 15px;
     background: #343434;
     img {
       border-radius: 10px;
@@ -111,18 +114,18 @@
     Link {
       text-align: right;
     }
-    
   }
   .img-content {
     display: none;
-  }
-  
+  } 
 }
-@media (max-width: 320px) {
+@media (max-width: 462px) {
   #home {
     padding-left: 0;
     padding-right: 0;
   }
+}
+@media (max-width: 320px) {
   .firstPage {
     
     h2 {
