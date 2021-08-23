@@ -1,5 +1,5 @@
 import { Box, Container } from '@material-ui/core'
-import react, { useEffect } from 'react'
+import { useEffect } from 'react'
 
 import { Footer } from '../components/Footer'
 import { HeaderDetails } from '../components/HeaderDetails'
@@ -7,7 +7,6 @@ import { HeaderDetails } from '../components/HeaderDetails'
 import '../styles/Details.scss'
 
 export function Details() {
-
   useEffect(() => {
     document.title = 'Continentes - Detalhes'
   }, [])
