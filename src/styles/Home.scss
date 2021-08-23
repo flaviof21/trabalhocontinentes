@@ -27,7 +27,7 @@
 
 .continent {
   p {
-    position: relative;
+    position: absolute;
   }
 
   img {
@@ -45,7 +45,6 @@
   margin: 15px;
   background: #343434;
   border-radius: 20px;
-
   .text-content {
     padding-left: 15px;
 

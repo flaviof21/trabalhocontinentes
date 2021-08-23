@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { Header } from '../components/Header'
 import Typing from 'react-typing-animation'
 import { Box } from '@material-ui/core'
 import { Link }  from 'react-router-dom'
@@ -6,12 +7,13 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 import '../styles/Home.scss'
-import { Header } from '../components/Header'
 import imgAsia2 from '../assets/Asia2.jpg'
+import { Footer } from '../components/Footer'
 
 export function Home() {
   useEffect(() => {
     Aos.init({ duration: 300 })
+    document.title = 'Continentes - Início'
   }, [])
   return (
     <>
@@ -20,16 +22,16 @@ export function Home() {
         <section id="home">
           <Box display="inline-block" justifyContent="center" className="firstPage">
             <Typing hideCursor={false} className="title">
-              <h2>Continente Asiático</h2>
+              <h2>Continentes</h2>
             </Typing>
             <hr />
-            <p>Bla bla bla bla bla com mais bla e com acréscimo de blas ou sejá bla bla bla bla bla bla bla</p>
+            <p>Feira cultural do colégio Penha de França 9ºAno</p>
           </Box>
         </section>
         <section>
           <div className="descriptions">
-            <Box display="flex" flexDirection="row-reverse" >
-              <Box display="flex" flexDirection="row" className="content" data-aos="fade-right" data-anime="right">
+            <Box position="" display="flex" flexDirection="row-reverse">
+              <Box position="relative" display="flex" flexDirection="row" className="content" data-aos="fade-right" data-anime="right">
                 <span className="text-content"> <h3>loren asd d asd asd as d asd s das das dad sad ds asd...</h3> <Link to="/asia/#Asia">Leia aqui</Link> <p>Text author: Flávio Farias</p></span>
                 <Box className="img-content"><img src={imgAsia2} alt="Imagem da asia" /></Box>
               </Box>
@@ -55,9 +57,7 @@ export function Home() {
           </div>
         </section>
       </main>
-      <footer>
-
-      </footer>
+      <Footer />
     </>
   );
 }
