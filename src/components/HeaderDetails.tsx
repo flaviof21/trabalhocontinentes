@@ -1,25 +1,23 @@
 import { Box, Container } from '@material-ui/core'
 
-import 'preventdefault'
-
 import '../styles/Header.scss'
 
 export function HeaderDetails() {
-  const menuItems = document.querySelectorAll('#menu a[href^="#"]');
+  const menuItems = document.querySelectorAll('#menu a[href^="#"]')
 
   menuItems.forEach(item => {
-    item.addEventListener('click', scrollToIdOnClick);
+    item.addEventListener('click', scrollToIdOnClick)
   })
 
   function getScrollTopByHref(element: any) {
-    const id = element.getAttribute('href');
-    return document.querySelector(id).offsetTop;
+    const id = element.getAttribute('href')
+    return document.querySelector(id).offsetTop
   }
 
   function scrollToIdOnClick(event: any) {
     event.preventDefault()
-    const to = getScrollTopByHref(event.target);
-    scrollToPosition(to);
+    const to = getScrollTopByHref(event.target)
+    scrollToPosition(to)
   }
   function scrollToPosition(to: number) {
     window.scroll({

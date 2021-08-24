@@ -16,7 +16,7 @@ export function Home() {
     document.title = 'Continentes - Início'
   }, [])
   return (
-    <>
+    <Box>
       <Header />
       <main>
         <section id="home">
@@ -58,6 +58,6 @@ export function Home() {
         </section>
       </main>
       <Footer />
-    </>
+    </Box>
   );
 }

@@ -4,10 +4,12 @@ import '../styles/Footer.scss'
 
 export function Footer () {
   return (
-    <Box bgcolor="#121212" id="footer">
+    <Box id="footer">
       <Container>
         <Box textAlign="center" padding="50px">
-          Hello
+          Feira Cultural do Colégio Penha de França
+          <br />
+          Conteúdo: os 5 Continentes
         </Box>
       </Container>
     </Box>

@@ -12,7 +12,7 @@ export function NotFoundPage () {
   }, [])
 
   return (
-    <>
+    <Box>
       <Header />
       <Box className="notfound">
         <img src={Error404} alt="Página não encontrada!"  />
@@ -20,6 +20,6 @@ export function NotFoundPage () {
           <Link to="/" style={{ textDecoration: 'none' }}>Ir para o inicio</Link>
         </p>
       </Box>
-    </>
+    </Box>
   )
 }
