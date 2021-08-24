@@ -12,7 +12,7 @@ import { Footer } from '../components/Footer'
 
 export function Home() {
   useEffect(() => {
-    Aos.init({ duration: 300 })
+    Aos.init({ duration: 150000 })
     document.title = 'Continentes - Início'
   }, [])
   return (
@@ -31,25 +31,25 @@ export function Home() {
         <section>
           <div className="descriptions">
             <Box position="" display="flex" flexDirection="row-reverse">
-              <Box position="relative" display="flex" flexDirection="row" className="content" data-aos="fade-right" data-anime="right">
+              <Box position="relative" display="flex" flexDirection="row" className="content" data-aos="fade-up" data-anime="up">
                 <span className="text-content"> <h3>loren asd d asd asd as d asd s das das dad sad ds asd...</h3> <Link to="/asia/#Asia">Leia aqui</Link> <p>Text author: Flávio Farias</p></span>
                 <Box className="img-content"><img src={imgAsia2} alt="Imagem da asia" /></Box>
               </Box>
             </Box>
             <Box display="flex" flexDirection="row" >
-              <Box display="flex" flexDirection="row-reverse" className="content" data-aos="fade-left" data-anime="left">
+              <Box display="flex" flexDirection="row-reverse" className="content" data-aos="fade-up" data-anime="up">
                 <span className="text-content"> <h3>loren asd d asd asd as d asd s das das dad sad ds asd...</h3> <Link to="/asia/#Asia">Leia aqui</Link> <p>Text author: Flávio Farias</p></span>
                 <Box className="img-content left" ><img src={imgAsia2} alt="Imagem da asia" /></Box>
               </Box>
             </Box>
             <Box display="flex" flexDirection="row-reverse" >
-              <Box display="flex" flexDirection="row" className="content" data-aos="fade-right" data-anime="right">
+              <Box display="flex" flexDirection="row" className="content" data-aos="fade-up"  data-anime="up">
                 <span className="text-content"> <h3>loren asd d asd asd as d asd s das das dad sad ds asd...</h3> <Link to="/asia/#Asia">Leia aqui</Link> <p>Text author: Flávio Farias</p></span>
                 <Box className="img-content"><img src={imgAsia2} alt="Imagem da asia" /></Box>
               </Box>
             </Box>
             <Box display="flex" flexDirection="row" >
-              <Box display="flex" flexDirection="row-reverse" className="content" data-aos="fade-left" data-anime="left">
+              <Box display="flex" flexDirection="row-reverse" className="content" data-aos="fade-up" data-anime="up">
                 <span className="text-content"> <h3>loren asd d asd asd as d asd s das das dad sad ds asd...</h3> <Link to="/asia/#Asia">Leia aqui</Link> <p>Text author: Flávio Farias</p></span>
                 <Box className="img-content left" ><img src={imgAsia2} alt="Imagem da asia" /></Box>
               </Box>

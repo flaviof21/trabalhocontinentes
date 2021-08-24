@@ -9,16 +9,17 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-typing-animation": "^1.6.3",
     "aos": "^2.3.4",
-    "node-sass": "5.0.0",
+    "preventdefault": "^0.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-prevent-default": "^1.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-typing-animation": "^1.6.2",
+    "sass": "^1.38.1",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -48,6 +49,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
+    "@types/react": "^17.0.19",
     "@types/react-router-dom": "^5.1.8"
   }
 }
